@@ -17,7 +17,6 @@ Ce projet fait partie de mon parcours d'apprentissage du développement Python. 
 ## 📸 Screenshots
 
 ![Interface TySpeed](assets/screenshots/screenshot.jpg)
-
 *Interface principale avec calcul en temps réel des MPM*
 
 ## ✨ Fonctionnalités
@@ -77,6 +76,8 @@ python src/main.py
 - **Clean Code** : Respect des standards PEP8, type hints, docstrings
 
 ## 🏗️ Architecture du projet
+
+```text
 tyspeed/
 ├── src/
 │   ├── main.py          # Classe principale TySpeedApp
@@ -87,15 +88,20 @@ tyspeed/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
+```
 
 ## 📦 Génération de l'exécutable
 
 Pour créer votre propre exécutable Windows :
+
+```bash
 # Installer PyInstaller
 pip install pyinstaller
 
 # Générer l'exécutable
 pyinstaller --onefile --windowed --paths=src src/main.py
+```
+
 L'exécutable sera disponible dans le dossier `dist/`.
 
 ## 📄 License
@@ -108,6 +114,3 @@ MIT License - Voir LICENSE
 📧 adam00soumana@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/adamou-soumana-a6537a346/)  
 🌐 [Portfolio](https://adamou-portfolio.onrender.com/)
----
-
-Projet réalisé dans le cadre de mon apprentissage du développement Python et des interfaces graphiques desktop.
