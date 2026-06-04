@@ -17,6 +17,7 @@ Ce projet fait partie de mon parcours d'apprentissage du développement Python. 
 ## 📸 Screenshots
 
 ![Interface TySpeed](assets/screenshots/screenshot.jpg)
+
 *Interface principale avec calcul en temps réel des MPM*
 
 ## ✨ Fonctionnalités
@@ -55,6 +56,8 @@ source venv/bin/activate  # Linux/Mac
 
 # Lancer l'application
 python src/main.py
+```
+
 ## 📖 Utilisation
 
 1. **Lancer l'application** : Double-cliquez sur l'exécutable ou lancez `python src/main.py`
@@ -84,6 +87,7 @@ tyspeed/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
+
 ## 📦 Génération de l'exécutable
 
 Pour créer votre propre exécutable Windows :
@@ -104,3 +108,6 @@ MIT License - Voir LICENSE
 📧 adam00soumana@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/adamou-soumana-a6537a346/)  
 🌐 [Portfolio](https://adamou-portfolio.onrender.com/)
+---
+
+Projet réalisé dans le cadre de mon apprentissage du développement Python et des interfaces graphiques desktop.
